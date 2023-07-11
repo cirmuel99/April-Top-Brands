@@ -1,22 +1,25 @@
 import './App.css';
-import Home from './component/Home';
-import About from './component/About';
-import Service from './component/Service';
-// function App() {
-//   return (
-//     <div className="App">
-//       <h1 className='App_h1'>hello world</h1>
-//     </div>
-//   );
-// }
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import NoPage from './pages/NoPage';
+import Services from './pages/Services';
 
 const App = () => {
   return (
-    <div className='App'>
-      <Home />
-      <About />
-      <Service />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path='about' element={<About />} /> 
+          <Route path='contact' element={<Contact />} />
+          <Route path='services' element={<Services />} />
+          <Route path='*' element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
