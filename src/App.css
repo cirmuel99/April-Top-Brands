@@ -71,3 +71,32 @@
   height: 190px;
   border-radius: 8px;
 }
+
+.wwa-h6 {
+  font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 0px;
+}
+
+.wwa {
+  font-size: 44px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.wwa-h5 {
+  font-size: 1.25rem;
+    font-weight: 600;
+    font-family: 'Hind Siliguri', sans-serif;
+    line-height: 1.5;
+}
+.wwa-p {
+  font-size: 18px;
+  line-height: 28px;
+}
