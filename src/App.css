@@ -73,30 +73,40 @@
 }
 
 .wwa-h6 {
-  font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 30px;
-    letter-spacing: 1px;
-    color: var(--primary-color);
-    display: block;
-    margin-bottom: 0px;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  line-height: 30px !important;
+  letter-spacing: 1px !important;
+  color: #db3030 !important;
+  display: block !important;
+  margin-bottom: 0px !important;
 }
 
-.wwa {
-  font-size: 44px;
-    line-height: 60px;
-    font-weight: 600;
-    margin-top: 0px;
+.wwa-h3 {
+  font-size: 54px !important;
+  line-height: 60px !important;
+  font-weight: 600 !important;
+  margin-top: 0px !important;
 }
 
 .wwa-h5 {
-  font-size: 1.25rem;
-    font-weight: 600;
-    font-family: 'Hind Siliguri', sans-serif;
-    line-height: 1.5;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  font-family: 'Hind Siliguri', sans-serif !important;
+  line-height: 1.5 !important; 
+  margin-bottom: 0px;
 }
+
+.wwa-p1 {
+  margin-top: 16px;
+  font-size: 18px !important;
+  line-height: 28px !important;
+}
+
 .wwa-p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  margin-bottom: 45px;
+  margin-top: '6px';
 }
