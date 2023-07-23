@@ -1,3 +1,9 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+
 .nav {
   display: flex;
   gap: 10em;
@@ -121,6 +127,31 @@
   color: white;
 }
 
+.wu-p1 {
+  font-size: 20px !important;
+  margin-top: 0px !important;
+  margin-bottom: 1.5em !important;
+}
+
+.wu-h3 {
+  font-size: 28px !important;
+}
+
+
+.op-box-2 {
+  background: white;
+    padding: 15px 26px;
+    border-radius: 6px;
+    margin-top: 15.4em;
+}
+
+.op-box {
+  background: black;
+    padding: 65px 65px 0px 65px;
+    border-radius: 6px;
+    height: 470px;
+}
+
 
 /* .wwd-box:hover .wwd-icons > *:not(.card-title) */
 
@@ -137,3 +168,4 @@
     z-index: 0;
     position: relative;
 } */
+
