@@ -1,3 +1,5 @@
+// import { Progress } from '@chakra-ui/react'
+
 const OurSkills = () => {
     return (
         <div className="ourSkills">
@@ -7,3 +9,11 @@ const OurSkills = () => {
 }
 
 export default OurSkills;
+
+
+
+{/* <Progress value={80} /> */}
+
+
+
+

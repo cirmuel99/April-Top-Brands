@@ -1,3 +1,9 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+
 .nav {
   display: flex;
   gap: 10em;
@@ -110,3 +116,56 @@
   margin-bottom: 45px;
   margin-top: '6px';
 }
+
+ .wwd-icons {
+  font-size: 40px;
+  color: #db3030;
+}
+
+.wwd-box:hover {
+  background-color: #db3030;
+  color: white;
+}
+
+.wu-p1 {
+  font-size: 20px !important;
+  margin-top: 0px !important;
+  margin-bottom: 1.5em !important;
+}
+
+.wu-h3 {
+  font-size: 28px !important;
+}
+
+
+.op-box-2 {
+  background: white;
+    padding: 15px 26px;
+    border-radius: 6px;
+    margin-top: 15.4em;
+}
+
+.op-box {
+  background: black;
+    padding: 65px 65px 0px 65px;
+    border-radius: 6px;
+    height: 470px;
+}
+
+
+/* .wwd-box:hover .wwd-icons > *:not(.card-title) */
+
+/* .banner-container {
+  background: transparent;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+} */
+
+/* .banner-extra {
+    z-index: 0;
+    position: relative;
+} */
+
